@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+    <tag name="_create"><![CDATA[Create]]></tag>
+    <tag name="_new_category"><![CDATA[New category]]></tag>
+    <tag name="_edit_category"><![CDATA[Edit category]]></tag>
+    <tag name="_delete_category"><![CDATA[Delete categories]]></tag>
+    <tag name="_delete_category_msg"><![CDATA[Are you sure? Plugins will be moved to "Others"]]></tag>
+    <tag name="_manage_categories"><![CDATA[Manage categories]]></tag>
+    <tag name="_category_name"><![CDATA[Category name]]></tag>
+    <tag name="_category_updated"><![CDATA[Category updated]]></tag>
+    <tag name="_category_added"><![CDATA[Category added]]></tag>
+    <tag name="_unknown_category_id"><![CDATA[Unknown category id]]></tag>
+    <tag name="_categories"><![CDATA[Categories]]></tag>
+    <tag name="_dashboard"><![CDATA[Dashboard]]></tag>
+    <tag name="_others"><![CDATA[Others]]></tag>
+    <tag name="_back"><![CDATA[Back]]></tag>
+    <tag name="_service_unavailable"><![CDATA[Service temporarily unavailable]]></tag>
+</translation>

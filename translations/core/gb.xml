@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+    <tag name="_create"><![CDATA[Create]]></tag>
+    <tag name="_layouts"><![CDATA[Layouts]]></tag>
+    <tag name="_menu"><![CDATA[Menu]]></tag>
+    <tag name="_files"><![CDATA[Files]]></tag>
+    <tag name="_configuration"><![CDATA[Configuration]]></tag>
+    <tag name="_users"><![CDATA[Users]]></tag>
+    <tag name="_plugins"><![CDATA[Plugins]]></tag>
+    <tag name="_themes"><![CDATA[Themes]]></tag>
+    <tag name="_logout"><![CDATA[Log out]]></tag>
+    <tag name="_translations"><![CDATA[Translations]]></tag>
+    <tag name="_back"><![CDATA[Back]]></tag>>
+    <tag name="_save_and_close"><![CDATA[Save & Close]]></tag>
+    <tag name="_save"><![CDATA[Save]]></tag>
+    <tag name="_information"><![CDATA[Information]]></tag>
+    <tag name="_error"><![CDATA[Error]]></tag>
+    <tag name="_validate_dirname"><![CDATA[Supported characters are a-z, 0-9, -, space and _]]></tag>
+    <tag name="_validate_email"><![CDATA[Value is not an e-mail address]]></tag>
+    <tag name="_validate_numeric"><![CDATA[Value is not numeric]]></tag>
+    <tag name="_validate_numeric_not_zero"><![CDATA[Value must be numeric and greater than zero]]></tag>
+    <tag name="_validate_strlen"><![CDATA[Value length must be between %s and %s]]></tag>
+    <tag name="_validate_hex"><![CDATA[Value is not hexadecimal]]></tag>
+    <tag name="_validate_not_empty"><![CDATA[Value can not be empty]]></tag>
+    <tag name="_validate_array_size_not_zero"><![CDATA[Value can not be empty]]></tag>
+    <tag name="_auto_generate"><![CDATA[Auto-generate]]></tag>
+    <tag name="_menu_dialog"><![CDATA[Menu browser]]></tag>
+    <tag name="_select_menu"><![CDATA[Select menu]]></tag>
+    <tag name="_layout_dialog"><![CDATA[Layout browser]]></tag>
+    <tag name="_select_layout"><![CDATA[Select layout]]></tag>
+    <tag name="_image_dialog"><![CDATA[Image browser]]></tag>
+    <tag name="_select_image"><![CDATA[Select image]]></tag>
+    <tag name="_select_color"><![CDATA[Select color]]></tag>
+    <tag name="_select_date"><![CDATA[Select date]]></tag>
+    <tag name="_plugin_not_found"><![CDATA[Plugin not found]]></tag>
+    <tag name="_method_uncallable"><![CDATA[Method uncallable by URL - Access denied]]></tag>
+    <tag name="_method_return"><![CDATA[Method should return opTemplate or exit()]]></tag>
+    <tag name="_method_not_found"><![CDATA[Method not found]]></tag>
+    <tag name="_system_standard"><![CDATA[System standard]]></tag>
+</translation>

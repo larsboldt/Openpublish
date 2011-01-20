@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+    <tag name="_translations"><![CDATA[Translations]]></tag>
+    <tag name="_translation"><![CDATA[Translation]]></tag>
+    <tag name="_add_translation"><![CDATA[Add translation]]></tag>
+    <tag name="_name_en"><![CDATA[Name (english)]]></tag>
+    <tag name="_name_na"><![CDATA[Name (native)]]></tag>
+    <tag name="_translate"><![CDATA[Translate]]></tag>
+    <tag name="_code"><![CDATA[Code]]></tag>
+    <tag name="_action"><![CDATA[Action]]></tag>
+    <tag name="_translate_lang"><![CDATA[Translate to %s]]></tag>
+    <tag name="_edit_language"><![CDATA[Edit %s]]></tag>
+    <tag name="_delete_lang_warn_msg"><![CDATA[Are you sure you want to delete %s?]]></tag>
+    <tag name="_remove_language"><![CDATA[Remove %s]]></tag>
+    <tag name="_translation_changed_to"><![CDATA[Translation changed to %s]]></tag>
+    <tag name="_unknown_translation"><![CDATA[Unknown translation]]></tag>
+    <tag name="_translation_added"><![CDATA[Translation added]]></tag>
+    <tag name="_edit_translation"><![CDATA[Edit translation]]></tag>
+    <tag name="_translation_updated"><![CDATA[Translation updated]]></tag>
+    <tag name="_translation_removed"><![CDATA[%s removed]]></tag>
+    <tag name="_user_not_found"><![CDATA[User not found]]></tag>
+    <tag name="_missing_translation"><![CDATA[Missing English (GB) for %s]]></tag>
+    <tag name="_translation_save_error_msg"><![CDATA[Translation was not saved, file could not be opened]]></tag>
+    <tag name="_translation_saved"><![CDATA[Translation saved]]></tag>
+    <tag name="_translation_for"><![CDATA[%s translation for %s]]></tag>
+</translation>

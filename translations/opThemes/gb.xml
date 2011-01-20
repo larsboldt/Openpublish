@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+    <tag name="_themes"><![CDATA[Themes]]></tag>
+    <tag name="_install_theme"><![CDATA[Install theme]]></tag>
+    <tag name="_theme"><![CDATA[Theme]]></tag>
+    <tag name="_templates"><![CDATA[Templates]]></tag>
+    <tag name="_action"><![CDATA[Action]]></tag>
+    <tag name="_update"><![CDATA[Update]]></tag>
+    <tag name="_update_warn_msg"><![CDATA[Templates unregistered by the theme will be removed by this process and also delete the connected layouts and menu items. Are you sure you want to update?]]></tag>
+    <tag name="_uninstall"><![CDATA[Uninstall]]></tag>
+    <tag name="_uninstall_warn_msg"><![CDATA[Removal of a theme will also delete any layout connected to the theme templates along with menu items, bridges and redirects. Are you sure you want to delete?]]></tag>
+    <tag name="_theme_installation"><![CDATA[Theme installation]]></tag>
+    <tag name="_class_name"><![CDATA[Class name (without "theme_")]]></tag>
+    <tag name="_install"><![CDATA[Install]]></tag>
+    <tag name="_back"><![CDATA[Back]]></tag>
+    <tag name="_tempalte_list_updated_msg"><![CDATA[Template list updated]]></tag>
+    <tag name="_unknown_theme_id"><![CDATA[Unknown theme id]]></tag>
+    <tag name="_theme_delete_msg"><![CDATA[Theme deleted, it is now safe to delete the theme files]]></tag>
+    <tag name="_theme_installed_msg"><![CDATA[Theme installed successfully]]></tag>
+    <tag name="_theme_name_error"><![CDATA[There is already a theme by that name installed.]]></tag>
+    <tag name="_theme_class_name_error"><![CDATA[Please type in a proper class name]]></tag>
+    <tag name="_dir_not_found_error"><![CDATA[Directory %s was not found]]></tag>
+    <tag name="_file_not_found_error"><![CDATA[File %s was not found]]></tag>
+    <tag name="_themes_updated"><![CDATA[Themes updated]]></tag>
+</translation>

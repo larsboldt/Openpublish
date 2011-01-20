@@ -1,0 +1,445 @@
+/*
+ *	System development
+ *  Copyright (C) 2009 Lars Boldt (lars@openpublish.org)
+ *
+ *	Design, UI, Themes, XHTML, CSS
+ *	Copyright (C) 2009 Christian Philippsen (christian@philippsen.no)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* Forms, labels, inputs & buttons
+---------------------------------------------------------------------------------------------- */
+
+/*#btn {
+	clear: both;
+	overflow: hidden;
+}*/
+
+span.action-btns select,
+span.action-right-btns select {
+    background: #ffffff;
+
+    width: 140px;
+
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+
+    margin: 0 0 0 10px;
+    float: left;
+    display: inline;
+}
+
+span.action-btns a,
+span.action-btns a:visited,
+span.action-layout-btns a,
+span.action-layout-btns a:visited,
+span.action-right-btns a,
+span.action-right-btns a:visited {
+    background: none;
+
+    font-size: 11px;
+    font-weight: normal !important;
+    color: #999999;
+    text-decoration: none;
+    line-height: 30px;
+
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
+    float: left;
+    display: inline;
+}
+
+span.action-btns a span,
+span.action-btns a:visited span,
+span.action-layout-btns a span,
+span.action-layout-btns a:visited span,
+span.action-right-btns a span,
+span.action-right-btns a:visited span {
+    width: auto;
+    height: 30px;
+
+    line-height: 30px;
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0 10px 0 0;
+    float: left;
+    display: block;
+    overflow: hidden;
+
+    cursor: pointer
+}
+
+span.action-btns a:hover,
+span.action-layout-btns a:hover,
+span.action-right-btns a:hover {
+    background: url(/themes/opAdmin/images/header_nav_btn.png) no-repeat left 0px;
+    color: #444444;
+}
+
+span.action-btns a:hover span,
+span.action-layout-btns a:hover span,
+span.action-right-btns a:hover span {
+    background: url(/themes/opAdmin/images/header_nav_btn.png) no-repeat right -30px;
+}
+
+#adminForm h5 {
+    border-bottom: 1px solid #bbe3f3;
+
+    font-size: 16px;
+    font-weight: normal;
+    color: #549c00;
+    line-height: 36px;
+
+    margin: 0 0 20px 0;
+}
+
+#adminForm h5.list {
+    border-bottom: 1px solid #bbe3f3;
+
+    font-size: 16px;
+    font-weight: normal;
+    color: #549c00;
+    line-height: 36px;
+
+    margin: 0;
+    clear: both;
+}
+
+#adminForm .listBelow {
+    margin: 0 0 60px 0;
+}
+
+a.form_btn,
+a.form_btn:visited {
+    background: url(/themes/opAdmin/images/form_btn_bg.png) repeat-x top left;
+    font-size: 12px;
+    font-weight: normal !important;
+    color: #999999 !important;
+    text-decoration: none !important;
+    line-height: 30px;
+    margin: 0 10px 0 0;
+    padding: 0 0 0 10px;
+    float: left;
+    display: inline;
+}
+
+a.form_btn span,
+a.form_btn:visited span {
+    background: url(/themes/opAdmin/images/form_btn_bg.png) repeat-x bottom right;
+    width: auto;
+    height: 30px;
+    line-height: 29px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    float: left;
+    display: block;
+    overflow: hidden;
+    cursor: pointer
+}
+
+a.form_btn_input,
+a.form_btn_input:visited {
+    background: url(/themes/opAdmin/images/form_btn_bg.png) repeat-x top left;
+    font-size: 12px;
+    font-weight: normal !important;
+    color: #999999;
+    text-decoration: none;
+    line-height: 30px;
+    margin: 3px 0 0 0;
+    padding: 0 0 0 10px;
+    display: inline-block;
+}
+
+a.form_btn_input span,
+a.form_btn_input:visited span {
+    background: url(/themes/opAdmin/images/form_btn_bg.png) repeat-x bottom right;
+    width: auto;
+    height: 30px;
+    line-height: 29px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+}
+
+a.form_btn_right,
+a.form_btn_right:visited {
+    background: url(/themes/opAdmin/images/form_btn_bg.png) repeat-x top left;
+    font-size: 12px;
+    font-weight: normal !important;
+    color: #999999;
+    text-decoration: none;
+    line-height: 30px;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
+    float: right;
+    display: inline;
+}
+
+a.form_btn_right span,
+a.form_btn_right:visited span {
+    background: url(/themes/opAdmin/images/form_btn_bg.png) repeat-x bottom right;
+    width: auto;
+    height: 30px;
+    line-height: 29px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    float: left;
+    display: block;
+    overflow: hidden;
+    cursor: pointer
+}
+
+a.form_btn:hover,
+a.form_btn_input:hover,
+a.form_btn_right:hover {
+    background: url(/themes/opAdmin/images/form_btn_bg_hover.png) repeat-x top left;
+    color: #444444;
+}
+
+a.form_btn:hover span,
+a.form_btn_input:hover span,
+a.form_btn_right:hover span {
+    background: url(/themes/opAdmin/images/form_btn_bg_hover.png) repeat-x bottom right;
+    color: #444444;
+}
+
+#adminForm input.btnlogin {
+    display: block;
+    margin: 20px 0 0 0;
+}
+
+#adminForm input.btnreset {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+.radioList {
+    margin-bottom: 20px;
+}
+.radioList li {
+	overflow: hidden;
+    /*float: left;*/
+}
+
+.form_radio_label {   
+    padding: 4px 0;
+}
+
+input.form_radio {
+    float: left;
+}
+
+input.form_txt,
+textarea.form_txtarea {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    width: 284px;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: 18px;
+    padding: 4px;
+}
+
+textarea.form_txtarea {
+    height: 72px;
+}
+
+/* LARS */
+textarea.form_codearea {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    width: 600px;
+    height: 300px;
+    font-family: "Courier New";
+    font-size: 12px !important;
+    padding: 4px;
+    color: #990000;
+    overflow: auto;
+    resize: none;
+}
+
+.opFormElementCodeboxLN {
+    width: 35px;
+    height: 300px;
+    border: none;
+    border-left: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    background: rgb(244,244,244);
+    padding: 4px;
+    color: #888;
+    text-align: right;
+    overflow: hidden;
+    font-family: "Courier New";
+    font-size: 12px !important;
+    resize: none;
+}
+
+.opFormElementCodeboxToolbar {
+    border-left: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    background: url(/themes/opAdmin/images/create_list_bg.png) repeat-x top left !important;
+    padding: 3px;
+    height: 22px;
+}
+.opFormElementCodeboxToolbar a,
+.opFormElementCodeboxToolbar a.visited {
+    border: 1px solid #ccc;
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 3px;
+}
+.opFormElementCodeboxToolbar a img {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.opFormElementCodeboxToolbar a:hover {
+    border: 1px solid #ccc;
+    background-color: #ffffaa;
+}
+/* LARS END */
+
+input.form_txt_small {
+    border: 1px solid #dddddd;
+    width: 130px !important;
+    background: #ffffff;
+    font-size: 18px;
+    padding: 4px;
+}
+
+input.form_txt_simple {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    width: 200px;
+    height: 14px;
+    font-size: 11px;
+    padding: 3px 3px 4px 3px;
+    margin: 0 5px 0 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.opAdminFormItem {
+    overflow: hidden;
+}
+
+span.input-shadow {
+    background: #f2f2f2;
+    margin: 0 0 15px 0;
+    padding: 3px;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+}
+
+#adminForm label {
+    font-size: 12px;
+    color: #999999;
+    display: block;
+    margin: 0 0 5px 0 !important;
+}
+
+span.btn-refresh {
+    margin: 2px 0 0 5px;
+    float: left;
+    display: inline;
+}
+
+span.btn-refresh img {
+    position: relative;
+    top: 7px;
+}
+
+#adminForm .mceEditor,
+#adminForm span.textarea-shadow {
+    background: #f2f2f2;
+
+    margin: 0 0 15px 0;
+    padding: 3px;
+    display: block;
+}
+
+#adminForm img.form_img {
+    display: block;
+    margin: 0 0 20px 0;
+}
+
+#adminForm .form_chk_label {
+    padding: 4px 0;
+}
+
+#adminForm select {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+
+    width: 310px;
+
+    font-size: 18px;
+
+    padding: 4px;
+}
+
+#adminForm input.form_chkbox {
+    margin: 0 0 15px 0;
+    display: inline;
+    float: left;
+}
+
+#container h3 select {
+    border: 1px solid #76c9e6 !important;
+    background: #ffffff;
+
+    padding: 2px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+#container h3 select.select-1st {
+    width: 140px;
+    right: 10px;
+}
+
+#container h3 select.select-2nd {
+    width: 140px;
+    right: 160px;
+}
+
+
+/* LARS */
+.elementError {
+    border: 1px solid #ff0000 !important;
+}
+.elementErrors {
+    clear: both;
+    margin-bottom: 20px;
+    font-size: 11px;
+    font-weight: normal !important;
+    font-style: italic;
+    color: #ff0000;
+}

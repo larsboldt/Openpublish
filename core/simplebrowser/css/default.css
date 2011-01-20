@@ -1,0 +1,239 @@
+/*
+ *	System development
+ *  Copyright (C) 2009 Lars Boldt (lars@openpublish.org)
+ *
+ *	Design, UI, Themes, XHTML, CSS
+ *	Copyright (C) 2009 Christian Philippsen (christian@nockdown.no)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END Eric Meyers RESET CSS */
+
+body {
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size: 11px;
+	color: #222222;
+	
+	margin: 0!important;
+	}
+
+.jCollapse {
+	font-size: 11px;
+    padding: 0 0 30px 0;
+    overflow: auto;
+    min-height: 450px;
+}
+
+.jCollapse div {
+    line-height: 26px !important;
+}
+
+.jCollapse div a {
+    font-size: 12px !important;
+}
+
+img {
+    border:0;
+	}
+
+
+/* Filetree 
+---------------------------------------------------------------------------------------------- */
+
+#fileserver {
+	}
+	
+#fileserver ul li ul {
+	padding: 0 0 0 20px;
+	}
+	
+#fileserver li {
+	line-height: 22px;
+	}
+
+/* Tables
+---------------------------------------------------------------------------------------------- */
+
+table.scheme {
+	background: #fff;
+	width: 100%;
+	font-weight: normal !important;
+	font-size: 12px !important;
+	}
+		
+td.table-data-shadow {
+	background: #ffffff url(../images/col_sidebar_left_bg.png) repeat-y top right;
+	
+	width: 180px;
+	height: 100%;
+	
+	padding: 10px;
+	}
+	
+table a,
+table a:visited {
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	}
+
+table a:hover {
+	color: #444444;
+	text-decoration: none;
+	}
+
+table a.page,
+table a.page:visited,
+table a.page:hover {
+	font-weight: bold;
+	color: #000000;
+	}
+
+table thead {
+	border-bottom: 1px solid #cccccc;
+    background: #eeeeee;
+	}
+	
+table thead.btm {
+	border: none;
+    background: #eeeeee;
+	}
+
+table thead td {
+	color: #666666;
+	line-height: 30px;
+
+	padding: 0 10px 0 10px;
+	}
+
+table.scheme tbody td {
+	border-left: 1px solid #e8e8e8;
+	border-bottom: 1px solid #dddddd;
+
+	line-height: 18px;
+
+	padding: 5px 10px 5px 10px;
+	vertical-align: middle;
+	}
+
+table tbody td.toggle-page {
+	padding: 0 0 0 10px;
+	}
+
+table tbody td.toggle-pagechild {
+	padding: 0 0 0 30px;
+	}
+
+tr.even {
+	background: #ffffff; 
+	}
+	
+tr.odd {
+	background: #f2f2f2;
+	}
+	
+img.table-icon {
+	position: relative;
+	top: 3px;
+	}
+
+
+/** SITEMAP */
+
+#sitemap,
+#sitemap ul.hasChildren {
+	background: url(../images/line1.png) repeat-y top left;
+}
+
+#sitemap li {
+	background: url(../images/line2.png) no-repeat 0px 0px;
+	padding-left: 28px;
+	font-size: 11px;
+	line-height: 20px;
+	color: #000;
+	font-weight: bold;
+	position: relative;
+}
+
+#sitemap li.lastChild {
+	background: url(../images/line3.png) no-repeat 0px 0px;
+}
+
+
+#sitemap li a,
+#sitemap li a:visited {
+	color: #444;
+	font-weight: normal;
+}
+
+#sitemap li a:hover {
+	text-decoration: underline;
+}
+
+.toggleImg {
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	cursor: pointer;
+}

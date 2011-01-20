@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Openpublish Default site</name>
+    <favicon></favicon>
+    <doctype></doctype>
+    <css>
+        <file src="css/reset.css" ddm="false" media="" conditional="" />
+        <file src="css/default.css" ddm="false" media="" conditional="" />
+    </css>
+    <js>
+        <file src="js/jquery-1.3.2.min.js" ddm="true" />
+        <file src="js/jquery.cycle.all.min.js" ddm="false" />
+        <file src="js/jquery.pxtoem.js" ddm="false" />
+        <file src="js/jquery.equalheights.js" ddm="false" />
+        <file src="js/jquery.to.do.js" ddm="false" />
+    </js>
+    <templates>
+        <template src="templates/frontpage.tpl" name="Frontpage" />
+    </templates>
+</theme>

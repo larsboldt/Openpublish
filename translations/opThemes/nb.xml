@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>	<tag name="_themes"><![CDATA[Temaer]]></tag>
+	<tag name="_install_theme"><![CDATA[Installér tema]]></tag>
+	<tag name="_theme"><![CDATA[Tema]]></tag>
+	<tag name="_templates"><![CDATA[Maler]]></tag>
+	<tag name="_action"><![CDATA[Kommando]]></tag>
+	<tag name="_update"><![CDATA[Oppdater]]></tag>
+	<tag name="_update_warn_msg"><![CDATA[Maler som blir avinstallert av denne prosessen vil også slette tilhørende sider og menypunkter. Er du sikker på at du vil oppdatere?]]></tag>
+	<tag name="_uninstall"><![CDATA[Avinstallér]]></tag>
+	<tag name="_uninstall_warn_msg"><![CDATA[Fjerning av tema vil også slette alle sider med tilhørende menypunkter, broer og omdirigeringer. Er du sikker på at du vil slette?]]></tag>
+	<tag name="_theme_installation"><![CDATA[Tema installasjon]]></tag>
+	<tag name="_class_name"><![CDATA[Klasse navn (uten "theme_")]]></tag>
+	<tag name="_install"><![CDATA[Installér]]></tag>
+	<tag name="_back"><![CDATA[Tilbake]]></tag>
+	<tag name="_tempalte_list_updated_msg"><![CDATA[Liste over maler oppdatert]]></tag>
+	<tag name="_unknown_theme_id"><![CDATA[Ukjent tema id]]></tag>
+	<tag name="_theme_delete_msg"><![CDATA[Tema slettet, det er nå sikkert å slette tema mappen]]></tag>
+	<tag name="_theme_installed_msg"><![CDATA[Tema ble installert]]></tag>
+	<tag name="_theme_name_error"><![CDATA[Det er allerede et tema med det navnet installert]]></tag>
+	<tag name="_theme_class_name_error"><![CDATA[Vennligst skriv inn et korrekt klasse navn]]></tag>
+	<tag name="_dir_not_found_error"><![CDATA[%s - Mappen finnes ikke]]></tag>
+	<tag name="_file_not_found_error"><![CDATA[%s - Filen finnes ikke]]></tag>
+        <tag name="_themes_updated"><![CDATA[Tema oppdatert]]></tag>
+</translation>

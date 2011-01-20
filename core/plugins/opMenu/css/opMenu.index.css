@@ -1,0 +1,70 @@
+dl.listHeader {
+	background-color: #eee;
+	height: 30px;
+	padding: 0 10px;
+	overflow: hidden; 
+}
+
+dl.listHeader dt {
+	width: 69%;
+	color: #666666;
+	line-height: 30px;
+	float: left;
+	display: block;
+}
+
+dl.listHeader dd {
+	color: #666666;
+	line-height: 30px;
+	float: left;
+	display: block;
+}
+
+dl.listHeader select {
+    border: 1px solid #dddddd !important;
+    background: #ffffff !important;
+
+    width: 140px !important;
+    font-size: 10px !important;
+	margin-top: 5px;
+    padding: 2px !important;
+    position: relative;
+    top: -1px;
+
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+ul.listBody dl {
+	border-top: 1px solid #ddd;
+	height: 30px;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+ul.listBody dt {
+	width: 69%;
+	line-height: 30px;
+	float: left;
+	display: block;
+}
+
+ul.listBody dd {
+	line-height: 30px;
+	float: left;
+	display: block;
+}
+
+dd.listCol1 {
+    width: 15%;
+}
+
+dd.listCol2,
+dd.listCol3 {
+    text-align: center;
+    width: 8%;
+}
+
+ul.listBody img.table-icon {
+    margin: 4px 10px 0 0;
+}

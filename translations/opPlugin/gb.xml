@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+    <tag name="_plugins"><![CDATA[Plugins]]></tag>
+    <tag name="_manual_install"><![CDATA[Manual install]]></tag>
+    <tag name="_advanced_plugin_control"><![CDATA[Advanced plugin control]]></tag>
+    <tag name="_settings"><![CDATA[Settings]]></tag>
+    <tag name="_installed_plugins"><![CDATA[Installed plugins]]></tag>
+    <tag name="_manage_plugin"><![CDATA[Manage %s]]></tag>
+    <tag name="_manage_plugin_txt"><![CDATA[Manage plugin]]></tag>
+    <tag name="_plugin_information"><![CDATA[Plugin information]]></tag>
+    <tag name="_name"><![CDATA[Name]]></tag>
+    <tag name="_description"><![CDATA[Description]]></tag>
+    <tag name="_version"><![CDATA[Version]]></tag>
+    <tag name="_author"><![CDATA[Author]]></tag>
+    <tag name="_processing_position"><![CDATA[Processing position]]></tag>
+    <tag name="_has_admin"><![CDATA[Has admin]]></tag>
+    <tag name="_assign_to_layout"><![CDATA[Assign to layout]]></tag>
+    <tag name="_category"><![CDATA[Category]]></tag>
+    <tag name="_others"><![CDATA[Others]]></tag>
+    <tag name="_uninstall_plugin_warn_msg"><![CDATA[Are you sure you want to uninstall this plugin? All data stored by this plugin will be lost]]></tag>
+    <tag name="_uninstall"><![CDATA[Uninstall]]></tag>
+    <tag name="_plugin_installation"><![CDATA[Plugin installation]]></tag>
+    <tag name="_class_name"><![CDATA[Class name]]></tag>
+    <tag name="_install"><![CDATA[Install]]></tag>
+    <tag name="_back"><![CDATA[Back]]></tag>
+    <tag name="_select_process_category"><![CDATA[Select process category to sort]]></tag>
+    <tag name="_pre_process_plugins"><![CDATA[Pre-process plugins]]></tag>
+    <tag name="_post_process_plugins"><![CDATA[Post-process plugins]]></tag>
+    <tag name="_drag_items"><![CDATA[Drag items up/down with mouse]]></tag>
+    <tag name="_save"><![CDATA[Save]]></tag>
+    <tag name="_unset"><![CDATA[Unset]]></tag>
+    <tag name="_unknown_plugin_id"><![CDATA[Unknown plugin id]]></tag>
+    <tag name="_category_updated"><![CDATA[Category updated]]></tag>
+    <tag name="_general"><![CDATA[General]]></tag>
+    <tag name="_listings_per_page"><![CDATA[Listings per page]]></tag>
+    <tag name="_settings_updated"><![CDATA[Settings updated]]></tag>
+    <tag name="_plugin_order_saved"><![CDATA[Plugin order saved]]></tag>
+    <tag name="_no_category_selected"><![CDATA[No process category selected or empty category submitted]]></tag>
+    <tag name="_plugin_removed"><![CDATA[Plugin was successfully removed. You may now delete the plugin folder]]></tag>
+    <tag name="_plugin_installed"><![CDATA[Plugin installed]]></tag>
+    <tag name="_plugin_install_fail_function"><![CDATA[Plugin failed to install. Check the plugins install function]]></tag>
+    <tag name="_plugin_install_fail_name_exists"><![CDATA[There is already a plugin with this name installed]]></tag>
+    <tag name="_plugin_install_fail_file_not_found"><![CDATA[File %s was not found]]></tag>
+    <tag name="_plugin_install_fail_dir_not_found"><![CDATA[Directory %s was not found]]></tag>
+    <tag name="_plugin_install_fail_class_name"><![CDATA[Please type in a proper class name]]></tag>
+    <tag name="_plugin_uninstall_fail_function"><![CDATA[Plugin failed to uninstall. Check the plugins uninstall function]]></tag>
+</translation>

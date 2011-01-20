@@ -1,0 +1,282 @@
+/*
+ *	System development
+ *  Copyright (C) 2009 Lars Boldt (lars@openpublish.org)
+ *
+ *	Design, UI, Themes, XHTML, CSS
+ *	Copyright (C) 2009 Christian Philippsen (christian@philippsen.no)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* Navigation
+---------------------------------------------------------------------------------------------- */
+
+#adminbar a,
+#adminbar a:visited,
+#adminbar a:hover {
+    color: #ffffff;
+}
+
+a.appname,
+a.appname:visited,
+a.appname:hover,
+a.username,
+a.username:visited,
+a.username:hover {
+    font-weight: bold;
+}
+
+#adminbar {
+    background: #000000 url(/themes/opAdmin/images/adminbar_bg.png) repeat-x top left;
+    height: 40px;
+    position: relative;
+    z-index: 100;
+}
+
+ul#topbar-left {
+    color: #ffffff;
+    float: left;
+    display: inline;
+    height: 40px;
+    overflow: hidden;
+}
+
+ul#topbar-right {
+    color: #ffffff;
+    margin-right: 7px;
+    float: right;
+    display: inline;
+}
+
+ul#topbar-left li {
+    font-size: 11px;
+    color: #999999;
+    line-height: 40px;
+    margin-left: 15px;
+    float: left;
+    display: inline;
+}
+
+ul#topbar-right li {
+	background: url(/themes/opAdmin/images/adminbar_spacer.png) no-repeat 0px 0px;
+    font-size: 11px;
+    color: #999999;
+    line-height: 40px;
+    padding: 0 8px 0 10px;
+    float: left;
+    display: inline;
+}
+
+ul#topbar-right li ul li {
+	background: none !important;
+}
+
+ul#topbar-right li a:hover {
+    color: #fff;
+}
+
+ul#topbar-right li a,
+ul#topbar-right li a:visited {
+    width: auto;
+    height: 24px;
+    color: #999999;
+    text-decoration: none;
+    line-height: 24px;
+    margin: 8px 0 8px 0;
+    padding: 0 0 0 10px;
+    display: block;
+    overflow: hidden;
+}
+
+ul#topbar-right li a span,
+ul#topbar-right li a:visited span {
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    float: left;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+ul#topbar-right li a:hover {
+    background: url(/themes/opAdmin/images/lang_nav_btn_wrap.png) no-repeat left 0px;
+    color: #fff;
+}
+
+ul#topbar-right li a:hover span {
+    background: url(/themes/opAdmin/images/lang_nav_btn_wrap.png) no-repeat right -24px;
+}
+
+#header {
+    background: url(/themes/opAdmin/images/header_nav_bg.png) repeat-x bottom left;
+    height: 40px;
+    position: relative;
+    z-index: 99;
+}
+
+ul#nav-left {
+    width: 400px;
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+}
+
+ul#nav-right {
+    width: 500px;
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+}
+
+ul#nav-left li {
+    font-size: 12px;
+    line-height: 29px;
+    margin: 0 10px 0 0;
+    float: left;
+    display: inline;
+}
+
+ul#nav-right li {
+    font-size: 12px;
+    line-height: 29px;
+    margin: 0 0 0 10px;
+    float: right;
+    display: inline;
+}
+
+ul#nav-left a,
+ul#nav-left a:visited,
+ul#nav-right a,
+ul#nav-right a:visited {
+    width: auto;
+    height: 30px;
+    color: #999999;
+    text-decoration: none;
+    line-height: 29px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+ul#nav-left a span,
+ul#nav-left a:visited span,
+ul#nav-right a span,
+ul#nav-right a:visited span {
+    width: auto;
+    height: 30px;
+    line-height: 29px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    float: left;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+ul#nav-left a:hover,
+ul#nav-right a:hover{
+    background: url(/themes/opAdmin/images/header_nav_btn.png) no-repeat left 0px;
+    color: #444444;
+}
+
+ul#nav-left a:hover span,
+ul#nav-right a:hover span {
+    background: url(/themes/opAdmin/images/header_nav_btn.png) no-repeat right -30px;
+}
+
+ul#nav-left a.active,
+ul#nav-left a:hover.active,
+ul#nav-right a.active,
+ul#nav-right a:hover.active {
+    background: url(/themes/opAdmin/images/header_nav_btn.png) no-repeat left 0px;
+    font-weight: bold;
+    color: #444444;
+}
+
+ul#nav-left a.active span,
+ul#nav-left a:hover.active span,
+ul#nav-right a.active span,
+ul#nav-right a:hover.active span {
+    background: url(/themes/opAdmin/images/header_nav_btn.png) no-repeat right -30px;
+}
+
+
+/* Language selection list
+---------------------------------------------------------------------------------------------- */
+
+img.languageFlag {
+	margin-right: 2px;
+	position: relative;
+	top: 1px;
+}
+
+img.btnIcon,
+img.translateFlag {
+	margin-right: 2px;
+	position: relative;
+	top: 4px;
+}
+
+li#languageDropdown {
+	position: relative;
+}
+
+ul#languageList {
+	background: #010101;
+	width: 200px;
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	z-index: 9999;
+	margin: 0 !important;
+	padding: 0 0 10px 0 !important;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+}
+
+ul#languageList li {
+	width: 200px;
+	font-size: 11px;
+    color: #999999;
+    line-height: 40px;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block;
+}
+
+ul#languageList li a,
+ul#languageList li a:visited {
+	color: #999;
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	padding: 0 20px;
+}
+
+ul#languageList li a:hover {
+	background: url(/themes/opAdmin/images/lang_nav_bg.png) no-repeat 10px 0px;
+	color: #fff;
+}

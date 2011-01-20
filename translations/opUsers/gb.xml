@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+    <tag name="_users"><![CDATA[Users]]></tag>
+    <tag name="_new_user"><![CDATA[New user]]></tag>
+    <tag name="_edit_user"><![CDATA[Edit user]]></tag>
+    <tag name="_delete_users"><![CDATA[Delete users]]></tag>
+    <tag name="_delete_users_msg"><![CDATA[Are you sure?]]></tag>
+    <tag name="_manage_users"><![CDATA[Manage users]]></tag>
+    <tag name="_user_information"><![CDATA[User information]]></tag>
+    <tag name="_first_name"><![CDATA[Firstname]]></tag>
+    <tag name="_last_name"><![CDATA[Lastname]]></tag>
+    <tag name="_email"><![CDATA[E-mail (username)]]></tag>
+    <tag name="_password"><![CDATA[Password]]></tag>
+    <tag name="_password_edit"><![CDATA[Password (leave blank to keep current)]]></tag>
+    <tag name="_email_in_use_error"><![CDATA[E-mail (username) is already in use]]></tag>
+    <tag name="_user_added_msg"><![CDATA[User added]]></tag>
+    <tag name="_user_updated_msg"><![CDATA[User updated]]></tag>
+    <tag name="_access_denied_error"><![CDATA[Access denied]]></tag>
+    <tag name="_password_length_error"><![CDATA[Password length must be between %s and %s characters]]></tag>
+    <tag name="_unknown_user_id"><![CDATA[Unknown user id]]></tag>
+</translation>

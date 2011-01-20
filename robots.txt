@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin
+Disallow: /admindm
+Disallow: /core
+Disallow: /install
+Disallow: /files
+Disallow: /plugins
+Disallow: /themes
+Disallow: /translations

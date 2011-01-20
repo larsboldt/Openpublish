@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>Plugins</name>
+    <description>Manage plugins</description>
+    <version>100</version>
+    <author>Lars Boldt</author>
+    <processing_position>0</processing_position>
+    <hasAdmin>true</hasAdmin>
+    <assignToLayout>false</assignToLayout>
+</plugin>

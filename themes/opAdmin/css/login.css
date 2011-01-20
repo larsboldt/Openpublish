@@ -1,0 +1,134 @@
+/*
+ *	System development
+ *  Copyright (C) 2009 Lars Boldt (lars@openpublish.org)
+ *
+ *	Design, UI, Themes, XHTML, CSS
+ *	Copyright (C) 2009 Christian Philippsen (christian@philippsen.no)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* Login Screen
+---------------------------------------------------------------------------------------------- */
+
+body.loginScreen {
+    background: #fff url(/themes/opAdmin/images/dashboard_bg.png) repeat-x top center !important;
+}
+
+html {
+    background: #fff !important;
+}
+
+body.loginScreen #wrapper {
+    overflow: hidden;
+}
+
+#loginBox {
+    border: 1px solid #e0e0e0;
+    background: #f7f7f7;
+    width: 342px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#loginBox #adminbar {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+img.opLogo {
+    width: 117px;
+    height: 40px;
+    margin: 0 0 0 10px;
+    float: left;
+    display: inline;
+}
+
+span.opVersion {
+    width: 100px;
+    font-size: 11px;
+    color: #999999;
+    line-height: 40px;
+    text-align: right;
+    margin: 0 10px 0 0;
+    float: right;
+    display: inline;
+}
+
+img.captcha-img {
+    border: 1px solid #dddddd;
+}
+
+#login-remember {
+    margin: 0 0 10px 0;
+    overflow: hidden;
+}
+
+#login-remember label {
+    margin: 0 0 0 10px;
+    padding: 4px 0 0 0;
+}
+
+#buttons {
+    overflow: hidden;
+}
+
+span.errorBox {
+    border: 1px solid #e0a4a4;
+    background: #ffc9c9 url(/themes/opAdmin/images/icons/minus-circle.png) no-repeat 9px 8px;
+    font-size: 12px;
+    color: #cc6666;
+    line-height: 22px;
+    margin: 0 0 20px 0;
+    padding: 4px 10px 4px 30px;
+    display: block;
+}
+
+span.infoBox {
+    border: 1px solid #e0d8a4;
+    background: #fff8c9 url(/themes/opAdmin/images/icons/exclamation.png) no-repeat 9px 8px;
+    font-size: 12px;
+    color: #b3ad83;
+    line-height: 22px;
+    margin: 0 0 20px 0;
+    padding: 4px 10px 4px 30px;
+    display: block;
+}
+
+span.successBox {
+	border: 1px solid #a2daa9;
+    background: #c9f1ce url(/themes/opAdmin/images/icons/tick.png) no-repeat 9px 8px;
+    font-size: 12px;
+    color: #7aa37f;
+    line-height: 20px;
+    margin: 0 0 22px 0;
+    padding: 4px 10px 4px 30px;
+    display: block;
+}
+
+span.errorBox,
+span.infoBox,
+span.successBox {
+	font-size: 12px !important;
+}
+
+#formTable li {
+	overflow: hidden;
+}

@@ -1,0 +1,71 @@
+#btn {
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
+	overflow: hidden;
+	clear: both;
+}
+
+#btn a, #btn a:visited { color: #999 !important; }
+#btn a:hover { color: #444 !important; }
+
+/* Dialog
+----------------------------------*/
+.ui-dialog { border: 3px solid #f2f2f2 !important; position: relative; padding: 0 !important; width: 300px; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; font-family: "Lucida Grande", Verdana, sans-serif !important; font-size: 12px; }
+.ui-dialog .ui-dialog-titlebar { background: url(/themes/opAdmin/images/header_nav_bg.png) repeat-x top left !important; border: 1px solid #ddd !important; padding: 8px 10px !important; position: relative; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; }
+.ui-dialog .ui-dialog-title { float: left; margin: .1em 0 .2em; color: #444 !important; font-weight: normal !important; } 
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+.ui-dialog .ui-dialog-content { border: 1px solid #ddd; border-top: 0; padding: 0 !important; background: none; overflow: auto; zoom: 1; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+.ui-dialog .ui-dialog-buttonpane button { float: right; margin: .5em .4em .5em 0; cursor: pointer; padding: .2em .6em .3em .6em; line-height: 1.4em; width:auto; overflow:visible; }
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+
+/* Tabs
+----------------------------------*/
+.ui-tabs { padding: 0; zoom: 1; }
+.ui-tabs .ui-tabs-nav { border-bottom: 1px solid #ddd; list-style: none; position: relative; padding: 0; margin-bottom: 10px; }
+.ui-tabs .ui-tabs-nav li { background: url(/themes/opAdmin/images/header_nav_bg.png) repeat-x top left; position: relative; float: left; border-bottom-width: 0 !important; margin: 0 3px -1px 2px; padding: 0; }
+.ui-tabs .ui-tabs-nav li a { float: left; color: #999; text-decoration: none; padding: 6px 10px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { background-color: #fff; background-image: none !important; padding-bottom: 1px; border-bottom-width: 0; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { font-weight: bold; color: #444; cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { padding: 1em 1.4em; display: block; border-width: 0; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+/* Overwrites with smooth Openpublish UI */
+.ui-tabs-nav { border: none; border-bottom: 1px solid #ddd !important; background: none !important; font-weight: normal !important; color: inherit !important }
+.ui-tabs { border: none !important; font-family: "Lucida Grande", Verdana, sans-serif !important; font-size: 12px; }
+.ui-tabs .ui-corner-top, ui-tabs .ui-corner-all { -moz-border-radius: 0px !important; -webkit-border-radius: 0px !important; }
+.ui-tabs .ui-state-default { border-color: #ddd !important; }
+.ui-tabs .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #999; text-decoration: none; outline: none; }
+.ui-tabs .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { border: 1px solid #ddd; font-weight: normal; color: #212121; outline: none; }
+.ui-tabs .ui-state-hover a, .ui-state-hover a:hover { color: #999; text-decoration: none; outline: none; }
+.ui-tabs .ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid #ddd; background: #ffffff !important; font-weight: bold; color: #444; outline: none; }
+.ui-tabs .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #444; outline: none; text-decoration: none; }
+
+/* Button
+----------------------------------*/
+
+.ui-button {
+	display: inline-block !important;
+}
+
+.ui-button.ui-state-default {
+	border: 1px solid #ccc;
+	background: url(/themes/opAdmin/images/ui_btns_bg.png) repeat-x 0 -122px;
+	color: #999 !important;
+	text-align: left !important;
+}
+
+.ui-button.ui-state-active {
+	border: 1px solid #e8e2c0 !important;
+	background: url(/themes/opAdmin/images/ui_btns_bg.png) repeat-x 0 -152px !important;
+	font-weight: normal;
+	color: #79765d !important;
+	text-align: left !important;
+	padding-left: 20px;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget .form_textarea, .ui-widget button { font-family: "Lucida Grande", Verdana, sans-serif !important; font-size: 18px !important; }

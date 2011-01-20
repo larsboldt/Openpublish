@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+    <tag name="_configuration"><![CDATA[Configuration]]></tag>
+    <tag name="_general"><![CDATA[General]]></tag>
+    <tag name="_aesthetics"><![CDATA[Aesthetics]]></tag>
+    <tag name="_files"><![CDATA[Files]]></tag>
+    <tag name="_caching"><![CDATA[Caching]]></tag>
+    <tag name="_security"><![CDATA[Security]]></tag>
+    <tag name="_site_name"><![CDATA[Site name]]></tag>
+    <tag name="_site_url"><![CDATA[Site URL]]></tag>
+    <tag name="_date_format"><![CDATA[Date format]]></tag>
+    <tag name="_time_format"><![CDATA[Time format]]></tag>
+    <tag name="_site_offline"><![CDATA[Site offline]]></tag>
+    <tag name="_title_separator"><![CDATA[Title separator]]></tag>
+    <tag name="_title_breadcrumb"><![CDATA[Title breadcrumb]]></tag>
+    <tag name="_title_breadcrumb_separator"><![CDATA[Title breadcrumb separator]]></tag>
+    <tag name="_force_lowercase_url"><![CDATA[Force lowercase URLs]]></tag>
+    <tag name="_file_permissions"><![CDATA[File permissions]]></tag>
+    <tag name="_dir_permissions"><![CDATA[Directory permissions]]></tag>
+    <tag name="_enable_server_caching"><![CDATA[Enable server caching]]></tag>
+    <tag name="_server_cache_ttl"><![CDATA[Server cache refresh (in seconds)]]></tag>
+    <tag name="_enable_local_caching"><![CDATA[Enable local caching]]></tag>
+    <tag name="_local_cache_ttl"><![CDATA[Local cache refresh (max-age, in seconds)]]></tag>
+    <tag name="_compress_css"><![CDATA[Combine and compress CSS files (requires server caching enabled)]]></tag>
+    <tag name="_compress_js"><![CDATA[Combine and compress JS files (requires server caching enabled)]]></tag>
+    <tag name="_disable_captcha"><![CDATA[Disable CAPTCHA]]></tag>
+    <tag name="_login_protection"><![CDATA[Extra login protection]]></tag>
+    <tag name="_none"><![CDATA[None]]></tag>
+    <tag name="_blacklist"><![CDATA[Blacklist]]></tag>
+    <tag name="_whitelist"><![CDATA[Whitelist]]></tag>
+    <tag name="_hammer_protection"><![CDATA[Hammer protection]]></tag>
+    <tag name="_hammer_intervals"><![CDATA[Hammer intervals (t:i:b, separate with comma)]]></tag>
+    <tag name="_configuration_updated"><![CDATA[Configuration updated]]></tag>
+</translation>

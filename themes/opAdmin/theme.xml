@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Openpublish Admin</name>
+    <favicon></favicon>
+    <doctype></doctype>
+    <css>
+        <file src="css/reset.css" ddm="false" media="" conditional="" />
+        <file src="css/smoothness/jquery-ui-1.7.2.custom.css" ddm="false" media="" conditional="" />
+        <file src="css/default.css" ddm="false" media="" conditional="" />
+        <file src="css/navigation.css" ddm="false" media="" conditional="" />
+        <file src="css/typography.css" ddm="false" media="" conditional="" />
+        <file src="css/form.css" ddm="false" media="" conditional="" />
+        <file src="css/messages.css" ddm="false" media="" conditional="" />
+        <file src="css/tagList.css" ddm="false" media="" conditional="" />
+        <file src="css/tabs.css" ddm="false" media="" conditional="" />
+        <file src="css/colorpicker.css" ddm="false" media="" conditional="" />
+        <file src="css/ie.css" ddm="false" media="" conditional="IE" />
+        <file src="css/uniform/uniform.openpublish.css" ddm="false" media="" conditional="" />
+    </css>
+    <js>
+        <file src="js/jquery-1.3.2.min.js" ddm="false" />
+        <file src="js/jquery-ui-1.7.2.custom.min.js" ddm="false" />
+        <file src="js/jquery.tinymce.js" ddm="false" />
+        <file src="js/jquery.cookies.2.1.0.js" ddm="false" />
+        <file src="js/jCollapse.js" ddm="false" />
+        <file src="js/ui.js" ddm="false" />
+        <file src="js/opLanguageList.js" ddm="false" />
+        <file src="js/tagList.js" ddm="false" />
+        <file src="js/adminForm.js" ddm="false" />
+        <file src="js/colorpicker.js" ddm="false" />
+        <file src="js/jquery.a-tools-1.2.min.js" ddm="false" />
+        <file src="js/jquery.textarea.js" ddm="false" />
+        <file src="js/jquery.uniform.js" ddm="false" />
+    </js>
+</theme>

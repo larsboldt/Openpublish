@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>Untitled</name>
+    <description>No description</description>
+    <version>100</version>
+    <author>Incognito</author>
+    <processing_position>1</processing_position>
+    <hasAdmin>false</hasAdmin>
+    <assignToLayout>false</assignToLayout>
+</plugin>

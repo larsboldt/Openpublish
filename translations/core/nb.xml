@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+    <tag name="_create"><![CDATA[Opprett]]></tag>
+    <tag name="_layouts"><![CDATA[Sider]]></tag>
+    <tag name="_menu"><![CDATA[Menyer]]></tag>
+    <tag name="_files"><![CDATA[Filer]]></tag>
+    <tag name="_configuration"><![CDATA[Konfigurasjon]]></tag>
+    <tag name="_users"><![CDATA[Brukere]]></tag>
+    <tag name="_plugins"><![CDATA[Moduler]]></tag>
+    <tag name="_themes"><![CDATA[Temaer]]></tag>
+    <tag name="_logout"><![CDATA[Logg ut]]></tag>
+    <tag name="_translations"><![CDATA[Oversettelser]]></tag>
+    <tag name="_back"><![CDATA[Tilbake]]></tag>
+    <tag name="_save_and_close"><![CDATA[Lagre & Lukk]]></tag>
+    <tag name="_save"><![CDATA[Lagre]]></tag>
+    <tag name="_information"><![CDATA[Informasjon]]></tag>
+    <tag name="_error"><![CDATA[Feil]]></tag>
+    <tag name="_validate_dirname"><![CDATA[Støttede tegn er a-z, 0-9, -, mellomrom og _]]></tag>
+    <tag name="_validate_email"><![CDATA[Verdi er ikke en godkjent e-post adresse]]></tag>
+    <tag name="_validate_numeric"><![CDATA[Verdi må være numerisk]]></tag>
+    <tag name="_validate_numeric_not_zero"><![CDATA[Verdi må være numerisk og større enn null]]></tag>
+    <tag name="_validate_strlen"><![CDATA[Verdiens lengde må være mellom %s og %s tegn]]></tag>
+    <tag name="_validate_hex"><![CDATA[Verdi må være hexadesimal]]></tag>
+    <tag name="_validate_not_empty"><![CDATA[Feltet må fylles ut]]></tag>
+    <tag name="_validate_array_size_not_zero"><![CDATA[Feltet må fylles ut]]></tag>
+    <tag name="_auto_generate"><![CDATA[Auto-generer]]></tag>
+    <tag name="_menu_dialog"><![CDATA[Meny utforsker]]></tag>
+    <tag name="_select_menu"><![CDATA[Velg meny]]></tag>
+    <tag name="_layout_dialog"><![CDATA[Side utforsker]]></tag>
+    <tag name="_select_layout"><![CDATA[Velg side]]></tag>
+    <tag name="_image_dialog"><![CDATA[Bilde utforsker]]></tag>
+    <tag name="_select_image"><![CDATA[Velg bilde]]></tag>
+    <tag name="_select_color"><![CDATA[Velg farge]]></tag>
+    <tag name="_select_date"><![CDATA[Velg dato]]></tag>
+    <tag name="_plugin_not_found"><![CDATA[Modul ikke funnet]]></tag>
+    <tag name="_method_uncallable"><![CDATA[Method kan ikke kalles via URL]]></tag>
+    <tag name="_method_return"><![CDATA[Method må returnere opTemplate eller exit()]]></tag>
+    <tag name="_method_not_found"><![CDATA[Method ble ikke funnet]]></tag>
+    <tag name="_system_standard"><![CDATA[System standard]]></tag>
+</translation>

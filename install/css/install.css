@@ -1,0 +1,101 @@
+/*
+ *	System development
+ *  Copyright (C) 2009 Lars Boldt (lars@openpublish.org)
+ *
+ *	Design, UI, Themes, XHTML, CSS
+ *	Copyright (C) 2009 Christian Philippsen (christian@nockdown.no)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+ul#installList li {
+	border-bottom: 1px solid #dddddd;
+	background: url(/themes/opAdmin/images/icons/control-000-small.png) no-repeat -4px 7px;
+	line-height: 30px;
+	padding: 0 0 0 15px;
+}
+
+h5.installStatus {
+	margin: 0 !important;
+}
+
+span.installAbort {
+	background: url(/themes/opAdmin/images/icons/minus-circle.png) no-repeat 5px 2px;
+	color: #cc6666;
+	font-weight: bold;
+	margin: 0 0 0 10px;
+	padding: 3px 5px 3px 25px;
+}
+
+span.installOk {
+	background: url(/themes/opAdmin/images/icons/tick.png) no-repeat 5px 3px;
+	color: #20a02d;
+	font-weight: bold;
+	margin: 0 0 0 10px;
+	padding: 3px 5px 3px 25px;
+}
+
+table.requirements thead td {
+	border-bottom: 2px solid #a4e0ae;
+
+	height: 40px;
+	
+	vertical-align: middle;
+	}
+	
+table.requirements tbody td {
+	border-bottom: 1px solid #dddddd;
+	
+	height: 40px;
+	
+	vertical-align: middle;
+	}
+	
+table.requirements tbody td.check {
+	border-left: 1px solid #dddddd !important;
+	
+	padding: 0 0 0 10px;
+	}
+	
+table.requirements td.success {
+	border-left: 1px solid #dddddd !important;
+	background-color: #d8ffc9;
+	background-image: url(/themes/opAdmin/images/icons/tick.png);
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	
+	padding: 0 0 0 35px;
+	}
+	
+table.requirements td.failed {
+	border-left: 1px solid #dddddd !important;
+	background-color: #ffc9c9;
+	background-image: url(/themes/opAdmin/images/icons/cross.png);
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	
+	padding: 0 0 0 35px;
+}
+	
+#page-btn-back {
+	margin: 20px 0 0 0;
+	float: left;
+	display: inline;
+}
+
+#page-btn-next {
+	margin: 20px -10px 0 0;
+	float: right;
+	display: inline;
+}

@@ -1,0 +1,755 @@
+/*
+ *	System development
+ *  Copyright (C) 2009 Lars Boldt (lars@openpublish.org)
+ *
+ *	Design, UI, Themes, XHTML, CSS
+ *	Copyright (C) 2009 Christian Philippsen (christian@philippsen.no)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+html {
+    background: #f2f2f2;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: 11px;
+    color: #222222;
+}
+
+.inner {
+    width: 960px;
+    min-width: 960px;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+a,
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    /*padding-bottom: 30px;*/
+}
+
+#statusbar {
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+    background: url(/themes/opAdmin/images/header_nav_bg.png) repeat-x bottom left;
+    height: 30px;
+    width: 100%;
+    display: none;
+}
+
+#container {
+    border: 1px solid #ddd;
+    background: #ffffff;
+    font-size: 12px;
+    margin: 20px 15px 20px 15px;
+}
+
+#content-repos {
+    background: url(/themes/opAdmin/images/col_sidebar_left_bg.png) repeat-y 220px 0px;
+}
+
+#content-sidebar {
+    width: 240px;
+    float: left;
+    display: inline;
+}
+
+#content-index {
+    margin: 0px 0px 0px 240px;
+}
+
+#content-dashboard {
+    border: 1px solid #dddddd;
+    border-top: none;
+    background: url(/themes/opAdmin/images/col_sidebar_bg.png) repeat-y right 0px;
+    overflow: hidden;
+}
+
+#content-rsidebar {
+    width: 240px;
+}
+
+#content-plugin {
+    padding: 20px;
+    overflow: hidden;
+}
+
+#plug-cols {
+    background: #ffffff url(/themes/opAdmin/images/col_sidebar_bg.png) repeat-y right 25%;
+    position: relative;
+    overflow: hidden;
+    min-height: 500px;
+}
+
+#plug-col-1 {
+	background: url(/themes/opAdmin/images/dashboard_bg.png) no-repeat top center;
+    margin: 0 300px 0 0;
+    padding: 20px !important;
+    overflow: auto;
+}
+
+#plug-col-2 {	
+    width: 300px;
+    height: 100%;
+
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*margin-bottom: -32000px;
+	padding-bottom: 32000px;
+	float: right;
+	display: inline;*/
+}
+
+.plug-margin {
+    /*margin: 20px !important;*/
+}
+
+.sidebar-inner {
+    color: #444444;
+    padding: 20px;
+}
+
+#imageWrap {
+    position:relative;
+    overflow: auto;
+}
+
+.sidebar-inner h5 {
+    border-bottom: 1px solid #bbe3f3;
+
+    font-size: 14px;
+    font-weight: normal;
+    color: #549c00;
+    line-height: 30px;
+
+    margin: 0 0 20px 0;
+}
+
+.sidebar-inner .news-item {
+    border-bottom: 1px solid #dddddd;
+    margin: 0 0 15px 0;
+    padding: 0 0 5px 0;
+}
+
+.sidebar-inner h6 {
+    font-size: 12px;
+    margin: 0 0 6px 0;
+}
+
+.sidebar-inner p {
+    font-size: 11px;
+    line-height: 16px;
+
+    margin: 0 0 11px 0;
+}
+
+.sidebar-inner a.read-more,
+.sidebar-inner a.read-more:visited {
+    background: url(/themes/opAdmin/images/icons/arrow-000-small.png) no-repeat right -1px;
+    color: #31a3ca;
+    text-decoration: none;
+    padding: 0 15px 0 0;
+}	
+
+.sidebar-inner a.read-more:hover {
+    text-decoration: underline;
+}
+
+span.action-btns {
+    height: 45px;
+
+    position: absolute;
+    top: 5px;
+    right: 143px;
+}
+
+span.action-layout-btns {
+    height: 45px;
+
+    position: absolute;
+    top: 5px;
+    right: 311px;
+}
+
+span.action-right-btns {
+    height: 45px;
+
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.design-iframe {
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+
+#opCreateList {
+    margin: 20px 0 0 0;
+}
+
+#opCreateList li {
+    width: 190px;
+
+    font-size: 16px;
+    line-height: 28px;
+
+    margin: 0 20px 10px 0;
+    float: left;
+    display: inline;
+}
+
+#opCreateList li.item {
+    font-size: 12px;
+
+    margin: 0;
+    float: none;
+}
+
+#opCreateList li a,
+#opCreateList li a:visited {
+    border-bottom: 1px solid #bbe3f3;
+
+    color: #549c00;
+    display: block;
+}
+
+#opCreateList li a:hover {
+    text-decoration: none;
+}
+
+#opCreateList li a.arrow-down {
+    background: url(/themes/opAdmin/images/icons/arrow-270-small.png) no-repeat 168px 5px;
+}
+
+#opCreateList li a.arrow-up {
+    background: url(/themes/opAdmin/images/icons/arrow-090-small.png) no-repeat 168px 5px;
+}
+
+ul#opCreateList li.item a,
+ul#opCreateList li.item a:visited {
+    border-bottom: 1px solid #dddddd;
+    color: #000000;
+    padding: 0 10px;
+    display: block;
+}
+
+ul#opCreateList li.item a:hover {
+    background: url(/themes/opAdmin/images/sidebar_item_bg.png) no-repeat top left !important;
+    text-decoration: none;
+}
+
+ul#opCreateList li.item span {
+	display: block;
+}
+
+
+/* Create - Categories
+---------------------------------------------------------------------------------------------- */
+
+ul#sortList li {
+    background: url(/themes/opAdmin/images/sortList_bg.png) repeat top left;
+    line-height: 30px;
+}
+
+ul#sortList li.noBorder {
+    border: none;
+}
+
+span.sortGrab,
+span.sortChk{
+    border-right: 1px solid #dddddd;
+    background: #f2f2f2 url(/themes/opAdmin/images/sortList_chk_bg.png) repeat-x bottom left;
+    line-height: 30px;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    float: left;
+    display: inline;
+    /*position: relative;*/
+}
+
+span.sortGrab img {
+	width: 16px;
+	height: 16px;
+	margin: 7px auto 0 auto;
+}
+
+span.sortChk input {
+    margin-top: 7px;
+}
+
+span.sortTitle {
+    margin: 0 0 0 10px !important;
+}
+
+img.list-icon {
+    position: relative;
+    top: 8px;
+}
+
+img.btn-icon {
+    position: relative;
+    top: 6px;
+}
+
+
+/* Documents - Drag and drop
+---------------------------------------------------------------------------------------------- */
+
+.jCollapse {
+    padding: 0 0 30px 0;
+    overflow: auto;
+}
+
+.jCollapse div {
+    line-height: 26px !important;
+}
+
+.droppableHover {
+    background: #fff8c9 url(/themes/opAdmin/images/filetree_drop.png) repeat-x top left;
+    font-weight: bold;
+    color: #000000;
+}
+
+.draggable {
+    cursor: pointer;
+}
+
+.opera-icon-fix {
+    /*
+	   Opera 9+10 fix
+	   Drag and drop at Documents page will align weird
+	   if this class isnt set on the drag image.
+	*/
+    position: relative;
+    top: 2px;
+    left: 0;
+}
+
+
+/* Files - fileManager
+---------------------------------------------------------------------------------------------- */
+
+.filesHead {
+    border-bottom: 1px solid #ddd;
+    background: #eeeeee;
+    color: #666666;
+    line-height: 30px;
+    padding: 0 10px 0 10px;
+}
+
+ul#catList li a,
+ul#catList li a:visited,
+ul#folderList li a,
+ul#folderList li a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul#catList li a:hover,
+ul#folderList li a:hover {
+    text-decoration: underline;
+}
+
+#filesTable {
+    width: 80%;
+    float: left;
+    display: inline;
+}
+
+#filesTable table {
+    border-left: 1px solid #ddd;
+    margin: 0 !important;
+}
+
+
+/* Plugins
+---------------------------------------------------------------------------------------------- */
+
+ul#plugList {
+}
+
+ul#plugList li {
+    line-height: 30px;
+}
+
+ul#plugList li a,
+ul#plugList li a:visited {
+    border-bottom: 1px solid #dddddd;
+    color: #000000;
+    padding: 0 10px 0 32px;
+    display: block !important;
+}
+
+ul#plugList li a:hover {
+    text-decoration: none;
+}
+
+ul#plugList li:hover {
+    background: url(/themes/opAdmin/images/sidebar_item_bg.png) no-repeat top left !important;
+    text-decoration: none;
+}
+
+
+/* Plugin Data
+---------------------------------------------------------------------------------------------- */
+
+h5.list-heading {
+    border-bottom: 1px solid #bbe3f3;
+    font-size: 16px;
+    font-weight: normal;
+    color: #549c00;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+ul.pluginData {
+	
+}
+
+ul.pluginData li {
+	border-bottom: 1px solid #dddddd;
+	line-height: 30px;
+}
+
+ul.pluginData li span {
+	width: 150px;
+	color: #999999;
+	margin: 0 10px 0 0;
+	float: left;
+	display: inline-block;
+}
+
+.page-show {
+    width: 200px;
+    margin: 0;
+    float: left;
+    display: inline;
+    color: #666 !important;
+}
+
+.page-nav {
+    width: 490px;
+    margin: 0;
+    float: right;
+    display: inline;
+}
+
+.page-show strong,
+.page-nav strong {
+    color: #666;
+    font-weight: normal;
+}
+
+.page-nav a,
+.page-nav a:visited {
+    color: #666 !important;
+    text-decoration: none;
+}
+
+.page-nav a:hover {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.page-nav a.page-prev,
+.page-nav a.page-next {
+    padding: 0 5px;
+}
+
+.page-nav a.page-active,
+.page-nav a.page-active:visited,
+.page-nav a.page-active:hover {
+    border: 1px solid #ccc;
+    background: #fff;
+    font-weight: bold !important;
+    padding: 1px 4px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+
+/* Tables
+---------------------------------------------------------------------------------------------- */
+
+table.scheme {
+    width: 100%;
+    font-weight: normal !important;
+    font-size: 12px !important;
+}
+
+table.scheme-single {
+    width: 100%;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    margin: 0;
+}
+
+td.table-data-shadow {
+    background: #ffffff url(/themes/opAdmin/images/col_sidebar_left_bg.png) repeat-y top right;
+
+    width: 240px;
+    height: 100%;
+}
+
+table.scheme a,
+table.scheme a:visited,
+table.scheme-single a,
+table.scheme-single a:visited {
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+table.scheme a:hover,
+table.scheme-single a:hover {
+    color: #444444;
+    text-decoration: underline;
+}
+
+table.scheme a.page,
+table.scheme a.page:visited,
+table.scheme a.page:hover,
+table.scheme-single a.page,
+table.scheme-single a.page:visited,
+table.scheme-single a.page:hover {
+    font-weight: bold;
+    color: #000000;
+}
+
+table.scheme caption,
+table.scheme,single caption {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+
+    padding: 0 0 15px 0;
+}
+
+table.scheme thead,
+table.scheme-single thead {
+    border-bottom: 1px solid #ddd;
+    background: #eeeeee;
+}
+
+table.scheme td.pagination,
+table.scheme-single td.pagination {
+    border-bottom: 1px solid #ddd;
+    background: #eeeeee;
+}
+
+table.scheme thead.btm,
+table.scheme-single thead.btm {
+    border: none;
+    background: #eeeeee;
+}
+
+table.scheme thead td,
+table.scheme-single thead td {
+    color: #666666;
+    line-height: 30px;
+
+    padding: 0 10px 0 10px;
+}
+
+.pluginData select,
+table.scheme thead td select,
+table.scheme-single thead td select {
+    border: 1px solid #dddddd !important;
+    background: #ffffff !important;
+
+    width: 140px !important;
+    font-size: 10px !important;
+
+    padding: 2px !important;
+    position: relative;
+    top: -1px;
+
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+table.scheme tbody td,
+table.scheme-single tbody td {
+    /*border-left: 1px solid #e8e8e8;*/
+    border-bottom: 1px solid #dddddd;
+
+    line-height: 18px;
+
+    padding: 5px 10px 7px 10px;
+    vertical-align: middle;
+}
+
+table.scheme tbody td.toggle-page,
+table.scheme-single tbody td.toggle-page {
+    padding: 0 0 0 10px;
+}
+
+table.scheme tbody td.toggle-pagechild,
+table.scheme-single tbody td.toggle-pagechild {
+    padding: 0 0 0 30px;
+}
+
+tr.even {
+}
+
+.odd,
+tr.odd {
+    background: #f2f2f2;
+}
+
+img.table-icon {
+    position: relative;
+    top: 3px;
+}
+
+input.checkbox {
+    margin: 0;
+}
+
+.pagination a,
+.pagination a:visited {
+}
+
+.pagination a.currentpage,
+.pagination a.currentpage:visited {
+    font-weight: bold;
+}
+
+/* OP_IMAGE_DIALOG_IMAGE_LIST */
+.opImageDialogImageList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    clear: both;
+}
+.opImageDialogImageList li {
+    margin: 0 10px 10px 0;
+    width: 100px;
+    height: 119px;
+    padding: 0;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    float: left;
+    cursor: pointer;
+}
+.opImageDialogImageList li a,
+.opImageDialogImageList li a:visited {
+
+}
+
+.opProdBottomBar {
+	border-top: 1px solid #ddd;
+	background: url(/themes/opAdmin/images/header_nav_bg.png) repeat-x top left;
+	width: 100px;
+	height: 18px;
+	margin: 0;
+	float: left;
+}
+
+.opProdBottomBar a,
+.opProdBottomBar a:visited {
+	background: url(/themes/opAdmin/images/bottom_bar_icon_close.png) no-repeat 0px 0px;
+	width: 10px;
+	height: 10px;
+	text-indent: -9999em;
+	margin: 5px 4px 0 0;
+	float: right;
+}
+
+.opProdBottomBar a:hover {
+	background: url(/themes/opAdmin/images/bottom_bar_icon_close.png) no-repeat 0px -10px;
+}
+
+.opImageDialogImageWrap {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	float: left;
+}
+
+img.opProdImageThumb {
+	display: block;
+	margin: 0 auto;
+}
+
+/** opLayoutMap & opMenuMap */
+
+#opLayoutMap,
+#opMenuMap,
+#opLayoutMap ul.hasChildren,
+#opMenuMap ul.hasChildren {
+	background: url(/core/simplebrowser/images/line1.png) repeat-y top left;
+}
+
+#opLayoutMap li,
+#opMenuMap li {
+	background: url(/core/simplebrowser/images/line2.png) no-repeat 0px 0px;
+	padding-left: 28px;
+	font-size: 11px;
+	line-height: 20px;
+	color: #000;
+	position: relative;
+}
+
+#opLayoutMap li.lastChild,
+#opMenuMap li.lastChild {
+	background: url(/core/simplebrowser/images/line3.png) no-repeat 0px 0px;
+}
+
+#opLayoutMap li a,
+#opLayoutMap li a:visited,
+#opMenuMap li a,
+#opMenuMap li a:visited {
+	color: #409ac7;
+	font-weight: normal;
+}
+
+#opLayoutMap li a:hover,
+#opMenuMap li a:hover {
+	text-decoration: underline;
+}
+
+#opLayoutMap img,
+#opMenuMap img {
+	margin: 3px 5px 0 0;
+	float: left;
+}
+
+.toggleImg {
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	cursor: pointer;
+}

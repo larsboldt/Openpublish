@@ -1,0 +1,155 @@
+#albumCategoryList {
+    margin: 0 5px;
+}
+
+#albumCategoryList ul {
+    margin-left: 20px;
+}
+
+#albumCategoryList li {
+    display: block;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+#albumCategoryList li a,
+#albumCategoryList li a:visited {
+    padding-right: 5px;
+}
+
+#albumCategoryList input {
+	float: left;
+	display: inline;
+}
+
+#albumCategoryList .checker {
+	margin-top: 4px !important;
+}
+
+.editGallery img {
+	margin-top: 6px;
+}
+
+td.imgCell a.form_btn,
+td.imgCell a.form_btn:visited,
+td.cell a.form_btn,
+td.cell a.form_btn:visited {
+	color: #999 !important;
+	text-decoration: none !important;
+}
+
+td.imgCell {
+	background: #f8f8f8;
+}
+
+td.cell {
+	background: url(/themes/opAdmin/images/dashboard_bg.png) no-repeat top center;
+	padding: 20px !important;
+}
+
+.opGalleryWrap {
+	width: 670px;
+	margin: 20px 10px;
+	overflow: hidden;
+}
+
+.opGalleryItem {
+	border: 1px solid #ddd;
+	border-top: 0;
+	background: #f2f2f2;
+	margin: 0 0 5px 0;
+	padding: 3px;
+	width: 322px;
+	float: left;
+}
+
+.opGalleryItem img {
+	border: 1px solid #ddd;
+}
+
+.opGalleryItemToolbar {
+	border: 1px solid #ddd;
+	background: url(/themes/opAdmin/images/header_nav_bg.png) repeat-x 0 0;
+	width: 328px;
+	line-height: 28px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 5px;
+}
+
+.countText {
+	width: 200px;
+	color: #999;
+	text-align: center;
+	margin: 0 64px;
+}
+
+.prevArrow {
+	position: absolute;
+	top: 0;
+	left: 5px;
+}
+
+.prevArrow a,
+.prevArrow a:visited,
+.prevArrow a:hover {
+	background: url(../icons/arrow-180-medium.png) no-repeat left 6px;
+	text-indent: -9999em;
+	display: block;
+	width: 16px;
+}
+
+.nextArrow {
+	position: absolute;
+	top: 0;
+	right: 5px;
+}
+
+.nextArrow a,
+.nextArrow a:visited,
+.nextArrow a:hover {
+	background: url(../icons/arrow-000-medium.png) no-repeat right 6px;
+	text-indent: -9999em;
+	display: block;
+	width: 16px;
+}
+
+.opGalleryItemForm {
+	width: 320px;
+	margin: 0 0 0 20px;
+	float: left;
+}
+
+.opGalleryItemForm span.input-shadow {
+	margin: 0;
+	float: none;
+}
+
+.opGalleryItemForm label {
+	width: 300px;
+	overflow: hidden;
+	color:#999999;
+	display:block;
+	font-size:12px;
+	margin:0 0 5px !important;
+}
+
+ul#pictureNav {
+}
+
+ul#pictureToolbar {
+}
+
+#pictureNav li {
+    text-align: left;
+    margin-right: 20px;
+}
+
+#pictureToolbar li {
+    text-align: left;
+    float: none;
+}
+
+.activeElement {
+    font-weight: bold;
+}

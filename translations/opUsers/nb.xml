@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+	<tag name="_users"><![CDATA[Brukere]]></tag>
+	<tag name="_new_user"><![CDATA[Ny bruker]]></tag>
+	<tag name="_edit_user"><![CDATA[Endre bruker]]></tag>
+	<tag name="_delete_users"><![CDATA[Slett brukere]]></tag>
+	<tag name="_delete_users_msg"><![CDATA[Er du sikker?]]></tag>
+	<tag name="_manage_users"><![CDATA[Brukeroversikt]]></tag>
+	<tag name="_user_information"><![CDATA[Bruker informasjon]]></tag>
+	<tag name="_first_name"><![CDATA[Fornavn]]></tag>
+	<tag name="_last_name"><![CDATA[Etternavn]]></tag>
+	<tag name="_email"><![CDATA[E-post (brukernavn)]]></tag>
+	<tag name="_password"><![CDATA[Passord]]></tag>
+	<tag name="_password_edit"><![CDATA[Passord (la det være blankt for å beholde eksisterende)]]></tag>
+	<tag name="_email_in_use_error"><![CDATA[E-post (brukernavn) er allerede i bruk]]></tag>
+	<tag name="_user_added_msg"><![CDATA[Bruker ble lagt til]]></tag>
+	<tag name="_user_updated_msg"><![CDATA[Bruker oppdatert]]></tag>
+	<tag name="_access_denied_error"><![CDATA[Ingen tilgang]]></tag>
+	<tag name="_password_length_error"><![CDATA[Passordets lengde må være mellom %s og %s tegn]]></tag>
+	<tag name="_unknown_user_id"><![CDATA[Ukjent bruker id]]></tag>
+</translation>

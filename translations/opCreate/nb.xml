@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+	<tag name="_create"><![CDATA[Opprett]]></tag>
+	<tag name="_new_category"><![CDATA[Ny kategori]]></tag>
+	<tag name="_edit_category"><![CDATA[Endre kategori]]></tag>
+	<tag name="_delete_category"><![CDATA[Slett kategori]]></tag>
+	<tag name="_delete_category_msg"><![CDATA[Er du sikker? Moduler vil bli omkategorisert til \]]></tag>
+	<tag name="_manage_categories"><![CDATA[Behandle kategorier]]></tag>
+	<tag name="_category_name"><![CDATA[Kategori navn]]></tag>
+	<tag name="_category_updated"><![CDATA[Kategori oppdatert]]></tag>
+	<tag name="_category_added"><![CDATA[Kategori lagt til]]></tag>
+	<tag name="_unknown_category_id"><![CDATA[Ukjent kategori id]]></tag>
+	<tag name="_categories"><![CDATA[Kategorier]]></tag>
+	<tag name="_dashboard"><![CDATA[Oversikt]]></tag>
+	<tag name="_others"><![CDATA[Andre]]></tag>
+	<tag name="_back"><![CDATA[Tilbake]]></tag>
+	<tag name="_service_unavailable"><![CDATA[Tjeneste midlertidig utilgjengelig]]></tag>
+</translation>

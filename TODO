@@ -1,0 +1,42 @@
+v1.0
+** BUGS FOUND
+- htmlentities on database info missing in many places, can cause problems with html
+
+* opCache
+- cache structure | check
+- Clean empty dirs
+- cache path hardcoded in opfilecache file
+
+* forms
+- form tokens
+- form submit must be disabled in designmode
+- radiobuttons in designmode
+
+* Documents
+- where is document being used
+
+* from menu, you should be able to link to pages in other plugins as internal links
+* layouts / menu, remember which item was expanded on page reload, cookie?
+* changing menu item names to include special characters that are stripped in url might result in "unable to update url"
+* check font color important on properties text in design mode
+* expose file/dir permissions during install so user can set his own
+* if root is writable during install config/htaccess must be made manually
+* check op_layout_collection on layout delete
+* if you delete theme files without removing theme from backend u get errors... check if theme is there, if not, remove it/disable it.
+* if u delete selected category in documents and don't select a new one and make new document it places itself in the deleted categories id
+* theme template name change not working?
+* files -> folder -> edit -> can select self or childs as parent
+****** WATCHLIST ******
+
+* Cache
+*local cache
+- plugins that display data from other plugins, these are cached, but not updated on observer update
+*server cache
+- doesn't it take into account different output from same id from a plugin, this will break server cache on news articles etc
+
+** Feature
+- on file not found - new page - site is experiencing technical difficulties at the moment, please try again later.
+
+* FeedAggregator
+- respect feed ttl?
+- set ttl on construct?

@@ -1,0 +1,120 @@
+#tagArea {
+	border: 1px solid #ddd;
+    width: 278px;
+    margin-bottom: 20px !important;
+    padding: 10px;
+}
+#tagControl {
+	overflow: hidden;
+    clear:both;
+}
+#tagControlMsg {
+    position: relative;
+    margin: -3px 0 0 3px;
+    display: none;
+    width: 216px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    background-color: #efefef;
+    color: #888;
+    padding: 5px;
+    font-size: 11px;
+    line-height: 18px;
+}
+#tagList {
+	background-color: #fff;
+    list-style: none;
+    overflow: hidden;
+}
+
+.tagIcon {
+    cursor: pointer;
+    margin: 4px 0 0 2px;
+    float: right;
+}
+
+#tagList li {
+	background: url(/themes/opAdmin/images/arrow_btn_bg.png) no-repeat left 0px;
+    width: auto;
+    height: 24px;
+    color: #666;
+    font-size: 11px;
+    text-decoration: none;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 0 0 8px;
+    float: left;
+    display: inline;
+    overflow: hidden;
+    margin: 0 5px 10px 0;
+}
+
+#tagList li span.tag {
+    background: url(/themes/opAdmin/images/arrow_btn_bg.png) no-repeat right -24px;
+    width: auto;
+    height: 24px;
+    line-height: 23px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 4px 0 0;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+input#tagText {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    width: 218px;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: 18px;
+    padding: 4px;
+}
+
+span.tagShadow {
+    background: #f2f2f2;
+    padding: 3px;
+    float: left;
+    display: inline-block;
+}
+
+.tagIt {
+	overflow: hidden;
+}
+
+a.tagBtn,
+a.tagBtn:visited {
+    background: url(/themes/opAdmin/images/form_btn_bg.png) repeat-x top left;
+    font-size: 12px;
+    font-weight: normal !important;
+    color: #999999;
+    text-decoration: none;
+    line-height: 30px;
+    margin: 4px 0 0 7px;
+    padding: 0 0 0 10px;
+    float: left;
+    display: inline;
+}
+
+a.tagBtn span,
+a.tagBtn:visited span {
+    background: url(/themes/opAdmin/images/form_btn_bg.png) repeat-x bottom right;
+    width: auto;
+    height: 30px;
+    line-height: 29px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    float: left;
+    display: block;
+    overflow: hidden;
+    cursor: pointer
+}
+
+a.tagBtn:hover {
+	background: url(/themes/opAdmin/images/form_btn_bg_hover.png) repeat-x top left;
+}
+
+a.tagBtn:hover span {
+	background: url(/themes/opAdmin/images/form_btn_bg_hover.png) repeat-x bottom right;
+}

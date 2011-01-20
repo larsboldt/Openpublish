@@ -1,0 +1,107 @@
+/*
+ *	System development
+ *  Copyright (C) 2009 Lars Boldt (lars@openpublish.org)
+ *
+ *	Design, UI, Themes, XHTML, CSS
+ *	Copyright (C) 2009 Christian Philippsen (christian@philippsen.no)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* Typography
+---------------------------------------------------------------------------------------------- */
+
+#header h1 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+#header h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #43b9e4;
+
+    position: absolute;
+    bottom: 55px;
+    left: 15px;
+}
+
+#header h2 a,
+#header h2 a:visited {
+    font-size: 14px;
+    color: #43b9e4 !important;
+}
+
+#container h1 {
+    font-size: 18px;
+
+    margin: 0 0 15px 0;
+}
+
+#container h2 {
+    font-size: 16px;
+
+    margin: 7px 0 13px 0;
+}
+
+#container h3 {
+    background: #fbfbfb url(/themes/opAdmin/images/header_nav_bg.png) repeat-x bottom left;
+
+    height: 40px;
+
+    font-size: 18px;
+    color: #444444;
+    line-height: 40px;
+
+    padding: 0 10px 0 55px;
+    position: relative;
+}
+
+#container h3 span.heading-icon {
+    border-right: 1px solid #dddddd;
+    background: #fbfbfb url(/themes/opAdmin/images/header_nav_bg.png) repeat-x bottom left;
+
+    width: 40px;
+    height: 40px;
+
+    text-align: center;
+    line-height: 40px;
+    display: block;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#container h3 span.heading-icon img {
+    margin: 8px auto 0 auto;
+    display: block;
+}
+
+#container h4 {
+    font-size: 48px;
+    font-weight: normal;
+    color: #666;
+}
+
+#container h6 {
+	font-size: 11px;
+	color: #666;
+	margin-bottom: 10px;
+}

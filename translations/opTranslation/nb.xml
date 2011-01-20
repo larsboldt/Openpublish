@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>	<tag name="_translations"><![CDATA[Oversettelser]]></tag>
+	<tag name="_translation"><![CDATA[Oversettelse]]></tag>
+	<tag name="_add_translation"><![CDATA[Ny oversettelse]]></tag>
+	<tag name="_name_en"><![CDATA[Navn (engelsk)]]></tag>
+	<tag name="_name_na"><![CDATA[Navn (lokalt)]]></tag>
+	<tag name="_translate"><![CDATA[Oversett]]></tag>
+	<tag name="_code"><![CDATA[Kode]]></tag>
+	<tag name="_action"><![CDATA[Kommando]]></tag>
+	<tag name="_translate_lang"><![CDATA[Oversett til %s]]></tag>
+	<tag name="_edit_language"><![CDATA[Endre %s]]></tag>
+	<tag name="_delete_lang_warn_msg"><![CDATA[Er du sikker på at du vil slette %s?]]></tag>
+	<tag name="_remove_language"><![CDATA[Fjern %s]]></tag>
+	<tag name="_translation_changed_to"><![CDATA[Språk endret til %s]]></tag>
+	<tag name="_unknown_translation"><![CDATA[Ukjent oversettelse]]></tag>
+	<tag name="_translation_added"><![CDATA[Oversettelse lagt til]]></tag>
+	<tag name="_edit_translation"><![CDATA[Endre oversettelse]]></tag>
+	<tag name="_translation_updated"><![CDATA[Oversettelse ble oppdatert]]></tag>
+	<tag name="_translation_removed"><![CDATA[%s ble fjernet]]></tag>
+	<tag name="_user_not_found"><![CDATA[Bruker ikke funnet]]></tag>
+	<tag name="_missing_translation"><![CDATA[Mangler Engelsk (GB) oversettelse for %s]]></tag>
+	<tag name="_translation_save_error_msg"><![CDATA[Oversettelse kunne ikke lagres fordi filen ikke kunne åpnes]]></tag>
+	<tag name="_translation_saved"><![CDATA[Oversettelse ble lagret]]></tag>
+	<tag name="_translation_for"><![CDATA[%s oversettelse for %s]]></tag>
+</translation>
